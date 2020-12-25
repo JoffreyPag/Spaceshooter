@@ -15,7 +15,10 @@ if(keyboard_check_pressed(ord("O"))) lvltiro--
 
 if(keyboard_check_pressed(ord("R"))) game_restart();
 
-if(escudo) instance_create_layer(x,y, "Instances", obj_escudo)
+if(escudo and qtd_escudo > 0){
+	instance_create_layer(x,y, "Instances", obj_escudo)
+	qtd_escudo--
+}
 //show_debug_message("player vida = "+string(vida))
 /*
 if (esq) x -= vel;
