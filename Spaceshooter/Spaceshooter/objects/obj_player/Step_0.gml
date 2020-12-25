@@ -1,9 +1,9 @@
 /// @description Configurando o player
 
-var esq = keyboard_check(vk_left)
-var dir = keyboard_check(vk_right)
-var cima = keyboard_check(vk_up)
-var baixo = keyboard_check(vk_down)
+var esq = (keyboard_check(vk_left) or keyboard_check(ord("A")))
+var dir = (keyboard_check(vk_right) or keyboard_check(ord("D")))
+var cima = (keyboard_check(vk_up) or keyboard_check(ord("W")))
+var baixo = (keyboard_check(vk_down) or keyboard_check(ord("S")))
 
 var tiro = keyboard_check_pressed(vk_space)
 

@@ -46,7 +46,8 @@ if(instance_exists(obj_player)){
 			}else{
 				x+=2
 			}
-			
+			//limite da tela a direita
+			//TODO: Mudar esses valores depois de implementar  ajuste de tela dinamico
 			if(x >= 672) move = true;
 			if(x <= 128) move = false;
 			
