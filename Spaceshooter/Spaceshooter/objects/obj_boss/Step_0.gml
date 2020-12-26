@@ -4,10 +4,13 @@
 delay++;
 contador++
 
+//a cada 6s o boss muda de estado
 if(contador >= room_speed*6){
 	estado = irandom(2);
 	contador = 0;
 }
+
+//estado fora da tela, caminhando para a posição de combate
 if(estado == 3){
 	if(y < 96) {
 		y+=5;
@@ -17,10 +20,14 @@ if(estado == 3){
 		contador = 0;
 	}
 }
+
 if(vida <= 0) instance_destroy();
+
 if(instance_exists(obj_player)){
+	//tiro
 	switch(estado){
 		case 0:
+			//a cada 1s -> 1 tiro
 			if(delay > 60){
 				instance_create_layer(x,y,"inimigos", obj_tiro2_inimigo);
 				delay = 0;
@@ -35,6 +42,7 @@ if(instance_exists(obj_player)){
 			if(x <= 128) move = false;
 		break;
 		case 1:
+			//a cada 55s (considerando que a conf desse jogo seja 60 fps)
 			if(delay > 55){
 				instance_create_layer(x-95,y+45, "inimigos", obj_tiro_inimigo);
 				instance_create_layer(x+90,y+45, "inimigos", obj_tiro_inimigo);

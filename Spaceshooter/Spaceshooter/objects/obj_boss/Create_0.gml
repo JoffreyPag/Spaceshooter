@@ -6,3 +6,4 @@ estado = 3
 move = false;
 contador = 0 //se contador > 0 roomm_speed*6
 vida = global.lvl*10;
+tam_borda_life = vida
