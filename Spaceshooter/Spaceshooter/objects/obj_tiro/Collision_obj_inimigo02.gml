@@ -2,7 +2,7 @@
 instance_destroy();
 instance_destroy(other)
 
-obj_control.cur_exp += 5
+obj_control.cur_exp += (5*(global.lvl*.5))
 
 var chance = random(100)
 

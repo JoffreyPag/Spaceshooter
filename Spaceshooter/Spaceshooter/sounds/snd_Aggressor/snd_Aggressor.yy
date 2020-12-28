@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Darkling.mp3",
-  "duration": 169.774811,
+  "soundFile": "snd_Aggressor.mp3",
+  "duration": 238.868683,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Darkling",
+  "name": "snd_Aggressor",
   "tags": [],
   "resourceType": "GMSound",
 }

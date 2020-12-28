@@ -9,6 +9,7 @@ lvltiro = 1
 qtd_escudo = 3
 
 function fire(){
+	audio_play_sound(sfx_laser1, 10, false)
 	if(lvltiro == 1){
 		instance_create_layer(x, y, "Instances", obj_tiro)	
 		

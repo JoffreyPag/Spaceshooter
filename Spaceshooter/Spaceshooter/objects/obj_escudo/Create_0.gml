@@ -6,3 +6,4 @@ image_speed = .3
 vida = 3
 cor = c_teal;
 alarm[0] = room_speed * 4;
+audio_play_sound(sfx_shieldUp, 10, false)

@@ -18,6 +18,7 @@ if(estado == 3){
 		estado = irandom(2);
 		delay = 0
 		contador = 0;
+		audioBoss = audio_play_sound(snd_Aggressor, 1, true)
 	}
 }
 

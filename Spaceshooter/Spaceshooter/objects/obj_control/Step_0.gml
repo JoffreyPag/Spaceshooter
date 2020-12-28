@@ -11,5 +11,7 @@ if(global.lvl >= nextBoss and !boss){
 		instance_destroy(obj_inimigo01)
 		instance_destroy(obj_inimigo02)
 		boss = true
+		//audio_stop_all()
+		audio_sound_gain(audio, 0, 2000)
 		alarm[0] = 0
 }
