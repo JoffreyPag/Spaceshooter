@@ -4,7 +4,7 @@ if(instance_exists(obj_boss) or !boss){
 
 	repeat(repete){
 		var xrandom = random_range(36,room_width-32)
-		var yrandom = random_range(-32, -608)
+		var yrandom = random_range(-320, -32)
 		var chance = random(10)*global.lvl
 		if(chance > 25){
 			var inimigo = instance_create_layer(xrandom, yrandom,"Inimigos", obj_inimigo02)
@@ -14,5 +14,5 @@ if(instance_exists(obj_boss) or !boss){
 			inimigo.speed = random_range(1,2)
 		}
 	}
-	alarm[0] = (room_speed *random_range(2,3)) * global.lvl
+	alarm[0] = (room_speed *random_range(1,2)) * global.lvl
 }
