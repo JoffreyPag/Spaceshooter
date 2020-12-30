@@ -36,3 +36,7 @@ y += velv
 if(vida <=0){
 	instance_destroy()
 }
+
+//estabelecendo limites de pos x e y do player
+x = clamp(x ,32, room_width-32)
+y = clamp(y ,32, room_height-32)

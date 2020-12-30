@@ -1,9 +1,14 @@
 /// @description checando level
 
-
+//subindo pontos
 if(cur_exp >= exp_needed){
 	global.lvl ++;
 	exp_needed = floor(exp_needed * 1.5)
+}
+
+//check pontuação mais alta
+if(cur_exp > global.maiorpontuacao){
+	global.maiorpontuacao = cur_exp	
 }
 
 if(global.lvl >= nextBoss and !boss){

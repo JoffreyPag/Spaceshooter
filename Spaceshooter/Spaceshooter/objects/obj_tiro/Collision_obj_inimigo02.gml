@@ -3,7 +3,7 @@ instance_destroy();
 instance_destroy(other)
 
 obj_control.cur_exp += (5*(global.lvl*.5))
-
+obj_control.inimigosderrotados++
 var chance = random(100)
 
 if(chance > 75){
