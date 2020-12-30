@@ -25,6 +25,7 @@
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":3,},
     {"id":{"name":"sfx_twoTone","path":"sounds/sfx_twoTone/sfx_twoTone.yy",},"order":5,},
     {"id":{"name":"fnt_exibir","path":"fonts/fnt_exibir/fnt_exibir.yy",},"order":0,},
+    {"id":{"name":"scr_treme","path":"scripts/scr_treme/scr_treme.yy",},"order":0,},
     {"id":{"name":"obj_boss","path":"objects/obj_boss/obj_boss.yy",},"order":4,},
     {"id":{"name":"obj_inimigo01","path":"objects/obj_inimigo01/obj_inimigo01.yy",},"order":0,},
     {"id":{"name":"sfx_laser2","path":"sounds/sfx_laser2/sfx_laser2.yy",},"order":1,},

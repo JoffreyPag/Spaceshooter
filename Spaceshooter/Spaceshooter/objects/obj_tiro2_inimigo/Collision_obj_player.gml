@@ -1,8 +1,8 @@
 /// @description Insert description here
-// You can write your code in this editor
-instance_destroy()
 
-instance_create_layer(0,0,"instances", obj_treme)
+instance_destroy()
+scr_treme(10, noone, "Instances")
+//instance_create_layer(0,0,"instances", obj_treme)
 with(other){
 	vida--
 }
