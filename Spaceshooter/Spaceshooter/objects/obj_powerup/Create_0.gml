@@ -11,4 +11,3 @@ v = random_range(.01,.1)
 image_xscale = .5
 
 aumentando = true
-diminuindo = false

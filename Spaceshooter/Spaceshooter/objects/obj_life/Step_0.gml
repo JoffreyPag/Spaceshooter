@@ -6,11 +6,10 @@ if(aumentando){
 	image_xscale -= v
 }
 
+//check image scale reach values to change behavior
 if(image_xscale>=2){
 	aumentando = false
-	v = random_range(.01,.1)
 }
-if(image_xscale<=0.5){
+if(image_xscale<=0.8){
 	aumentando = true
-	v = random_range(.01,.1)
 }

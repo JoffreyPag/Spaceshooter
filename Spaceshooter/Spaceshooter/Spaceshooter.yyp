@@ -21,6 +21,7 @@
     {"id":{"name":"spr_explosao","path":"sprites/spr_explosao/spr_explosao.yy",},"order":0,},
     {"id":{"name":"Rm_inicio","path":"rooms/Rm_inicio/Rm_inicio.yy",},"order":0,},
     {"id":{"name":"spr_tiro_inimigo","path":"sprites/spr_tiro_inimigo/spr_tiro_inimigo.yy",},"order":1,},
+    {"id":{"name":"obj_life","path":"objects/obj_life/obj_life.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_escudo","path":"sprites/spr_escudo/spr_escudo.yy",},"order":3,},
     {"id":{"name":"sfx_twoTone","path":"sounds/sfx_twoTone/sfx_twoTone.yy",},"order":5,},
@@ -46,6 +47,7 @@
     {"id":{"name":"fnt_titulo","path":"fonts/fnt_titulo/fnt_titulo.yy",},"order":1,},
     {"id":{"name":"obj_powerup","path":"objects/obj_powerup/obj_powerup.yy",},"order":3,},
     {"id":{"name":"obj_tiro2_inimigo","path":"objects/obj_tiro2_inimigo/obj_tiro2_inimigo.yy",},"order":3,},
+    {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":1,},
   ],
   "Options": [

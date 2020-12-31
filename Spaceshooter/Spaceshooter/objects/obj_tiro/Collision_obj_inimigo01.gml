@@ -7,4 +7,6 @@ var chance = random(100)
 
 if(chance > 90){
 	instance_create_layer(x,y, "Inimigos", obj_powerup)	
+}else if(chance > 85){
+	instance_create_layer(x,y, "Inimigos", obj_life)	
 }
