@@ -1,4 +1,4 @@
-/// @description criando so inimigos
+/// @description criando os inimigos
 if(instance_exists(obj_boss) or !boss){
 	var repete = random_range(1,2)*global.lvl
 
@@ -14,5 +14,5 @@ if(instance_exists(obj_boss) or !boss){
 			inimigo.speed = random_range(1,2)
 		}
 	}
-	alarm[0] = (room_speed *random_range(1,2)) * global.lvl
+	alarm[0] = (room_speed *random_range(1,2)) * (global.lvl/2)
 }

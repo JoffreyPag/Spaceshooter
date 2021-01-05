@@ -8,3 +8,4 @@ contador = 0 //se contador > 0 roomm_speed*6
 vida = global.lvl*10;
 tam_borda_life = vida
 audioBoss = pointer_null
+tolerance = (room_width - vida)/2
