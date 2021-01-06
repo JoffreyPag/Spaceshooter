@@ -1,4 +1,5 @@
 /// @description Iniciando o controlador
+window_set_cursor(cr_none)
 global.lvl = 1
 cur_exp = 0
 exp_needed = 10
