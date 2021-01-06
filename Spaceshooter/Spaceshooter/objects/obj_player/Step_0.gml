@@ -5,7 +5,7 @@ var dir = (keyboard_check(vk_right) or keyboard_check(ord("D")))
 var cima = (keyboard_check(vk_up) or keyboard_check(ord("W")))
 var baixo = (keyboard_check(vk_down) or keyboard_check(ord("S")))
 
-var tiro = keyboard_check_pressed(vk_space)
+var tiro = keyboard_check(vk_space)
 
 var escudo = keyboard_check_pressed(ord("E"))
 
@@ -13,7 +13,16 @@ var escudo = keyboard_check_pressed(ord("E"))
 if(keyboard_check_pressed(ord("P"))) lvltiro++;
 if(keyboard_check_pressed(ord("O"))) lvltiro--;
 
-if(tiro) fire();
+if(tiro and pode_atirar){
+	pode_atirar = false
+	fire();
+}else {
+	timeout++
+	if(timeout >= room_speed/4){
+		pode_atirar= true
+		timeout = 0
+	}
+}
 
 if(keyboard_check_pressed(ord("R"))) game_restart();
 

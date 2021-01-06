@@ -39,7 +39,7 @@ if(instance_exists(obj_player)){
 				x+=4
 			}
 			
-			if(x >= 672) move = true;
+			if(x >= camera_get_view_width(view_camera[0]) - 128) move = true;
 			if(x <= 128) move = false;
 		break;
 		case 1:
@@ -57,7 +57,7 @@ if(instance_exists(obj_player)){
 			}
 			//limite da tela a direita
 			//TODO: Mudar esses valores depois de implementar  ajuste de tela dinamico
-			if(x >= 672) move = true;
+			if(x >= camera_get_view_width(view_camera[0]) - 128) move = true;
 			if(x <= 128) move = false;
 			
 		break;

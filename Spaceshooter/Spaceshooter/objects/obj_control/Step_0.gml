@@ -12,7 +12,7 @@ if(cur_exp > global.maiorpontuacao){
 }
 
 if(global.lvl >= nextBoss and !boss){
-		instance_create_layer(room_width/2, -700, "Inimigos", obj_boss)
+		instance_create_layer(camera_get_view_width(view_camera[0])/2, -700, "Inimigos", obj_boss)
 		instance_destroy(obj_inimigo01)
 		instance_destroy(obj_inimigo02)
 		boss = true

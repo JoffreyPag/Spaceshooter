@@ -8,6 +8,10 @@ lvltiro = 1
 
 qtd_escudo = 3
 
+pode_atirar = true
+
+timeout = 0
+
 function fire(){
 	audio_play_sound(sfx_laser1, 10, false)
 	if(lvltiro == 1){
